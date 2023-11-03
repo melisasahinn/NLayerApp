@@ -9,6 +9,6 @@ namespace NLayer.Core.UnitOfWork
     public interface IUnitOfWork
     {
         Task CommitAsycn();
-        void Commit();
+        void Commit(); 
     }
 }

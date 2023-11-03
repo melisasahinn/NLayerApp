@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace NLayer.Service.Repository
 {
     public interface ICategoyRepository: IGenericRepository<Category>
-    {
+    { 
         Task<Category> GetSingleCategoryByIdWithProductsAsync(int categoryId);
     }
-}
+} 

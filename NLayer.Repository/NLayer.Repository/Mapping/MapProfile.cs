@@ -12,7 +12,7 @@ namespace NLayer.Repository.Mapping
 {
     public class MapProfile:Profile
     {
-
+  
         public MapProfile()
         {
             CreateMap<Product, ProductDto>().ReverseMap();

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NLayer.Core
-{
+{ 
     public class AppDbContext : DbContext
     {
          protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
