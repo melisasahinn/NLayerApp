@@ -13,4 +13,4 @@ namespace NLayer.Service.Exceptions
 
         }
     }
-}
+} 

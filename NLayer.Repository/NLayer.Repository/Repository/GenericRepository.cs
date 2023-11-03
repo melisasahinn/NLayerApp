@@ -18,7 +18,7 @@ namespace NLayer.Core.Repository
         public GenericRepository(AppDbContext context)
         {
             this.context = context;
-        }
+        } 
 
         public GenericRepository(DbSet<T> dbSet,AppDbContext appDbContext )
         {
