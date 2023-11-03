@@ -8,7 +8,7 @@ using NLayer.Core.Service;
 
 namespace NLayer.API.Controllers
 {
-   
+    
     public class ProductsController : CustomBaseController
     {
         private readonly IMapper _mapper;
@@ -55,6 +55,6 @@ namespace NLayer.API.Controllers
             var product= await _productService.GetByIdAsync(id);
             await _productService.RemoveAsync(product);
             return CreateActionResult(CustomResponseDto<NoContentDto>.Success(204));
-        }
+        } 
     }
 }
