@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using NLayer.Core.DTO;
 
 namespace NLayer.API.Filters
-{
+{ 
     public class ValidateFilterAttribute:ActionFilterAttribute
     {
         public override void OnActionExecuted(ActionExecutedContext context)

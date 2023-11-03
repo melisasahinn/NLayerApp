@@ -24,7 +24,7 @@ namespace NLayer.API.Controllers
             var categoriesDto = _mapper.Map<List<CategoryDto>>(categories.ToList());
             return CreateActionResult(CustomResponseDto<List<CategoryDto>>.Success(200, categoriesDto));
         }
-
+ 
         [HttpGet("[action] / {categoryId}")]
         public async Task<IActionResult> GetSingleCategoryByIdWithProducts(int categoryId)
         {

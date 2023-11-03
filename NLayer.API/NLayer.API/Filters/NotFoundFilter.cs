@@ -4,7 +4,7 @@ using NLayer.Core.DTO;
 using NLayer.Core.Service;
 
 namespace NLayer.API.Filters
-{
+{ 
     public class NotFoundFilter<T> : IAsyncActionFilter where T : class
     {
         private readonly IService<T> _service;

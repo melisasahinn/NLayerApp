@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using NLayer.Core.DTO;
 
 namespace NLayer.API.Controllers
-{
+{ 
     [Route("api/[controller]")]
     [ApiController]
     public class CustomBaseController : ControllerBase

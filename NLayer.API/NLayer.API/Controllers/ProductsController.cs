@@ -48,7 +48,7 @@ namespace NLayer.API.Controllers
             await _productService.UpdateAsync(_mapper.Map<Product>(productDto));
             return CreateActionResult(CustomResponseDto<NoContentDto>.Success(204));
         }
-
+ 
         [HttpDelete]
         public async Task<IActionResult> Remove(int id)
         {
